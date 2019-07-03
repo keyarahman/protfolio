@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 300;
+            color: #373d46;
+            margin-left: 250px;
+        }
+
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        label{
+            font-size: 1em;
+            font-weight: 200;
+            color: #373d46;
+        }
+
+        input[type=submit] {
+            background-color: rgba(130, 125, 253, 1);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgba(130, 125, 253, 1);
+        }
+
+        .container2 {
+            border-radius: 5px;
+          
+           padding: 20px;
+           margin-left: 250px;
+            padding: 10px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="Achievement.html">Achievement</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Contact Me</h1>
+            <div class="container2">
+                <form action="/action_page.php">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Email</label>
+                    <input type="text" id="femail" name="email" placeholder="Your Email.">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <footer>
+                    <ul>
+                            <li><a href="https://www.facebook.com/negar.sultana.1023"><img src="Image/facebook-round-logo-png-transparent-background-12.png" style="width: 52px;height: 52px" class="icon_image"></a></li>
+                            <li><a href="https://github.com/keyarahman"><img src="Image/GitHub-Mark.png" style="width: 54px;height: 54px" class="icon_image"></a></li>
+                            <li><a href="#"><img src="Image/Linkedin-icon.png" style="width: 50px;height: 50px" class="icon_image"></a></li>
+                            <li><a href="#"><img src="Image/instragram.png" style="width: 45px;height: 45px" class="icon_image"></a></li>
+                        </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
